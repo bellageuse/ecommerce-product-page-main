@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Kumbh+Sans:wght@300;400;500&family=Lexend+Deca:wght@200&family=Work+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | E-commerce product page</title>
 
@@ -15,22 +21,23 @@
   </style>
 </head>
 <body>
-  <section>
-    <nav>
-      <h3>Sneakers</h3>
-      <ul>
-        <li>Collection</li>
-        <li>Men</li>
-        <li>Women</li>
-        <li>Contact</li>
-        <li>About</li>
+  <header class="header-section">
+    <nav class="nav-container">
+      
+      <ul class="main-nav">
+        <li><h3>sneakers</h3></li>
+        <li><a href="#Collection">Collection</a></li>
+        <li><a href="#Men">Men</a></li>
+        <li><a href="#Women">Women</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#About">About</a></li>
       </ul>
-      <img src="images/icon-cart.svg">
-      <img src="images/image-avatar.png">
     </nav>
-  </section>
+    <!-- <img class="nav-icon"src="images/icon-cart.svg"> -->
+    <img class="nav-avatar"src="images/image-avatar.png">
+  </header>
 
-  <section>
+  <section class="content-section">
     <div>
       <img src="images/image-product-1.jpg">
       <ul>
