@@ -25,7 +25,6 @@ html,body{
 }
 
 header{
-    border: solid red;
     display: block;
     margin: 0 auto;
     display: flex;
@@ -38,17 +37,17 @@ header{
 .main-nav{
     list-style: none;
     padding : 17px;
-    
 }
 
 .main-nav li{
     display: inline-block;
+    /* margin-left: 20px; */
 }
 .main-nav li h3{
     font-weight: 700;
     font-size: 200%;
     padding-right: 13px;
-    margin-left: 20px;
+    margin-left: 83px;
 }
 .main-nav li a{
     text-decoration: none;
@@ -68,6 +67,66 @@ header{
     width: 65px;
     height: auto;
 }
-/* .content-section{
-    display: inline-block;
-} */
+hr{
+    color:hsl(220, 13%, 13%);
+    font-weight: 300;
+    width: 85%;
+    margin: 0 auto;
+    
+}
+
+
+.content-section{
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.img-content{
+    width: 50%;
+    float: left;
+    margin: 0 auto;
+    padding-top: 45px;
+    padding-left: 120px;
+}
+#big-img{
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    padding: 5px;
+}
+.shop-content{
+    width: 48%;
+    margin: 0 auto;
+    padding: 10px 50px;
+}
+.img-content li img{
+    float: left;
+    width: 100px;
+    height: auto;
+    padding: 5px 7px;
+    border-radius: 15px;
+}
+.img-content li img::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+li{
+    list-style: none;
+}
+
+
+.content-section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.shop-content p{
+    font-size: 100%;
+    color:hsl(26, 100%, 55%);
+}
+.line-one{
+    padding: 20px auto 30px;
+}
