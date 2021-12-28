@@ -84,11 +84,12 @@ hr{
 
 }
 .img-content{
-    width: 50%;
+    width: 45%;
     float: left;
     margin: 0 auto;
     padding-top: 45px;
     padding-left: 120px;
+    /* border: 2px solid red; */
 }
 #big-img{
     width: 400px;
@@ -97,11 +98,11 @@ hr{
     padding: 5px;
 }
 .shop-content{
-    
-    width: 48%;
     margin: 0 auto;
+    width: 45%;
     padding: 10px 50px;
     /* border: 2px solid red; */
+    
 }
 .img-content li img{
     float: left;
@@ -158,9 +159,9 @@ h2{
     padding: 5px;
 }
 .discount{
-    font-size: 80%;
+    font-size: 85%;
     padding: 10px 10px 20px 10px;
-    font-weight: 350;
+    font-weight: 150;
     color:hsl(220, 13%, 13%);
 }
 .cart{
@@ -201,5 +202,33 @@ h2{
     vertical-align: auto;
 }
 
+
+
+
+/* LIGHTBOX */
+
+
+.modal{
+    display: block;
+    position: fixed;
+    z-index: 1;
+    background-color:hsl(220, 13%, 13%); 
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+}
+.my-imgs img{
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    left: 35%;
+    width: 400px;
+    height: auto;
+}
+.column{
+    float: left;
+    width: 25%;
+    
+}
 
 
