@@ -222,19 +222,61 @@ h2{
 .modalContent{
     
     margin: auto;
-    padding: 40px auto;;
+    padding: 50px auto;;
     width: 40%;
     height: 90vh;
     max-width: 1200px;
     border: 2px solid red;
-    position: relative;
+    
     
     
 }
 .my-imgs img{
     width: 400px;
+    margin-top: 40px;
     margin-left: 70px;
     border-radius: 10px;
+    position: relative;
+}
+.prev{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -70px;
+    margin-left: 55px;
+    background-color: white;
+    width: auto;
+    padding: 12px;
+    font-size: 120%;
+    color:hsl(26, 100%, 55%);
+    border-radius: 50%;
+}
+.next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 395px;
+    margin-top: -70px;
+    margin-right: 70px;
+    background-color: white;
+    width: auto;
+    padding: 12px;
+    font-size: 120%;
+    color:hsl(26, 100%, 55%);
+    border-radius: 50%;
+}
+
+.close{
+    position: relative;
+    top: 35px;
+    left: 65%;
+    background-color: white;
+    color:hsl(26, 100%, 55%);
+    cursor: pointer;
+    font-size: 120%;
+    padding: 3px 10px 5px;
+    border-radius: 50%;
+    text-align: center;
 }
 
 .row{
@@ -244,6 +286,6 @@ h2{
 
 .column img{
     margin:5px;
-    width: 95px;
+    width: 90px;
     border-radius: 10px;
 }
