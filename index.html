@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <!-- javascript -->
+  <script type="text/javascript" src="main.js"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <!-- CSS -->
   <link rel="stylesheet" href="style.css">
@@ -12,15 +13,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Kumbh+Sans:wght@300;400;500&family=Lexend+Deca:wght@200&family=Work+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
   
-  <title>Frontend Mentor | E-commerce product page</title>
+<title>Frontend Mentor | E-commerce product page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
-<!-- <body>
+<body>
   <header class="header-section">
     <nav class="nav-container">
       
@@ -34,7 +31,7 @@
       </ul>
     </nav> -->
     <!-- <img class="nav-icon"src="images/icon-cart.svg"> -->
-    <!-- <img class="nav-avatar"src="images/image-avatar.png">
+    <img class="nav-avatar"src="images/image-avatar.png">
   </header>
 
   <hr>
@@ -43,10 +40,10 @@
     <div class="img-content">
       <img id="big-img"src="images/image-product-1.jpg">
       <ul>
-        <li><img src="images/image-product-1-thumbnail.jpg" alt=""></li>
-        <li><img src="images/image-product-2-thumbnail.jpg" alt=""></li>
-        <li><img src="images/image-product-3-thumbnail.jpg" alt=""></li>
-        <li><img src="images/image-product-4-thumbnail.jpg" alt=""></li>
+        <li><img onclick="openModal();" src="images/image-product-1-thumbnail.jpg" alt="" ></li>
+        <li><img onclick="openModal();" src="images/image-product-2-thumbnail.jpg" alt="" onclick="openModal();"></li>
+        <li><img onclick="openModal();" src="images/image-product-3-thumbnail.jpg" alt="" onclick="openModal();"></li>
+        <li><img onclick="openModal();" src="images/image-product-4-thumbnail.jpg" alt="" onclick="openModal();"></li>
       </ul>
     </div>
     <div class="shop-content">
@@ -62,7 +59,7 @@
         <button class="add-to-cart"><span> Add to Cart</span></button>
       </div>
     </div>
-  </section> -->
+  </section>
   <section id="myModal"class="modal">
     <span class="close" onclick="closeModal()">&times;</span>
     <div class="modalContent">
@@ -126,5 +123,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
+  
 </body>
 </html>
