@@ -40,10 +40,10 @@
     <div class="img-content">
       <img id="big-img"src="images/image-product-1.jpg">
       <ul>
-        <li><img onclick="openModal();" src="images/image-product-1-thumbnail.jpg" alt="" ></li>
-        <li><img onclick="openModal();" src="images/image-product-2-thumbnail.jpg" alt="" onclick="openModal();"></li>
-        <li><img onclick="openModal();" src="images/image-product-3-thumbnail.jpg" alt="" onclick="openModal();"></li>
-        <li><img onclick="openModal();" src="images/image-product-4-thumbnail.jpg" alt="" onclick="openModal();"></li>
+        <li><img onclick="openModal();currentSlide(1);" src="images/image-product-1-thumbnail.jpg" alt="" ></li>
+        <li><img onclick="openModal();currentSlide(2)" src="images/image-product-2-thumbnail.jpg" alt="" onclick="openModal();"></li>
+        <li><img onclick="openModal();currentSlide(3)" src="images/image-product-3-thumbnail.jpg" alt="" onclick="openModal();"></li>
+        <li><img onclick="openModal();currentSlide(4)" src="images/image-product-4-thumbnail.jpg" alt="" onclick="openModal();"></li>
       </ul>
     </div>
     <div class="shop-content">
@@ -66,7 +66,7 @@
       <div class="my-imgs">
         <img src="images/image-product-1.jpg" alt="product01">
       </div>
-      <!-- <div class="my-imgs">
+      <div class="my-imgs">
         <img src="images/image-product-2.jpg" alt="product02">
       </div>
       <div class="my-imgs">
@@ -74,21 +74,21 @@
       </div>
       <div class="my-imgs">
         <img src="images/image-product-4.jpg" alt="product04">
-      </div> -->
+      </div>
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
       <div class="row">
         <div class="column">
-          <img class="demo" src="images/image-product-1-thumbnail.jpg" alt="pd01thumbnail">
+          <img onclick="currentSlide(1);" class="demo" src="images/image-product-1-thumbnail.jpg" alt="pd01thumbnail">
         </div>
         <div class="column">
-          <img class="demo" src="images/image-product-2-thumbnail.jpg" alt="pd02thumbnail">
+          <img onclick="currentSlide(1);" class="demo" src="images/image-product-2-thumbnail.jpg" alt="pd02thumbnail">
         </div>
         <div class="column">
-          <img class="demo" src="images/image-product-3-thumbnail.jpg" alt="pd03thumbnail">
+          <img onclick="currentSlide(1);" class="demo" src="images/image-product-3-thumbnail.jpg" alt="pd03thumbnail">
         </div>
         <div class="column">
-          <img class="demo" src="images/image-product-4-thumbnail.jpg" alt="pd04thumbnail">
+          <img onclick="currentSlide(1);" class="demo" src="images/image-product-4-thumbnail.jpg" alt="pd04thumbnail">
         </div>
       </div>
       
