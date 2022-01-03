@@ -53,9 +53,9 @@
       <p class="price">$125.00 <span>50%</span></p>
       <s class="discount">$250</s>
       <div class="cart">
-        <button class="minus"><img  src="images/icon-minus.svg" alt=""></button>
-        <span class="amount">0</span>
-        <button class="plus"><img src="images/icon-plus.svg" alt=""></button>
+        <button onclick="plusMinusItem(-1);" id="minus" class="minus"><img  src="images/icon-minus.svg" alt=""></button>
+        <span id="amount" class="amount">0</span>
+        <button onclick="plusMinusItem(1);" id="plus" class="plus"><img src="images/icon-plus.svg" alt=""></button>
         <button class="add-to-cart"><span> Add to Cart</span></button>
       </div>
     </div>
