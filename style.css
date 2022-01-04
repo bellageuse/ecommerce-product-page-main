@@ -57,14 +57,31 @@ header{
 }
 
 .nav-icon{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 20px;
+    right: 110px;
+    width: 30px;
+    height: auto;
+}
+.amount__added{
     
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 8px;
+    right: 110px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: hsl(26, 100%, 55%);
+    color:hsl(0, 0%, 100%);
+    height: auto;
 }
 .nav-avatar{
     position: absolute;
     right : 0;
     margin-right: 12px;
     margin-top : 5px;
-    width: 65px;
+    width: 55px;
     height: auto;
 }
 hr{

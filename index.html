@@ -29,8 +29,8 @@
         <li><a href="#Contact">Contact</a></li>
         <li><a href="#About">About</a></li>
       </ul>
-    </nav> -->
-    <!-- <img class="nav-icon"src="images/icon-cart.svg"> -->
+    </nav> 
+    <img class="nav-icon"src="images/icon-cart.svg"><span id="amount__added" class="amount__added">0</span>
     <img class="nav-avatar"src="images/image-avatar.png">
   </header>
 
@@ -56,10 +56,12 @@
         <button onclick="plusMinusItem(-1);" id="minus" class="minus"><img  src="images/icon-minus.svg" alt=""></button>
         <span id="amount" class="amount">0</span>
         <button onclick="plusMinusItem(1);" id="plus" class="plus"><img src="images/icon-plus.svg" alt=""></button>
-        <button class="add-to-cart"><span> Add to Cart</span></button>
+        <button onclick="addToCart();" class="add-to-cart"><span> Add to Cart</span></button>
       </div>
     </div>
   </section>
+
+<!-- MODAL -->
   <section id="myModal"class="modal">
     <span class="close" onclick="closeModal()">&times;</span>
     <div class="modalContent">

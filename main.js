@@ -69,3 +69,19 @@ function plusMinusItem(n){
     }
     document.getElementById("amount").innerText=itemValue;
 }
+
+// pseudo
+
+// when clicked, amount,itemvalue becomes 0 
+// current amount shows up on nav cart
+
+
+function addToCart(){
+    console.log("clicked");
+    var amount__added=parseInt(document.getElementById("amount").innerText);
+    console.log(amount__added);
+    if(amount__added>=1){
+        document.getElementById("amount__added").innerText=amount__added;
+        document.getElementById("amount").innerText=0;
+    }
+}
